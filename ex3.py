@@ -6,7 +6,7 @@ print("Roosters", 100 - 25 * 3 % 4)
 print("Now I will count the eggs:")
 #This is counting out the eggs. As you can see there aren't any operators so it only does the math.
 print(3 + 2 + 1 - 5 + 4 % 2 -1 / 4 + 6)
-
+# This asks a question in the print line.
 print("Is it true that 3 + 2 < 5 - 7?")
 # This print statement does an operator that allows you to see a true/false statement using "<".
 print(3 + 2 < 5 - 7)
