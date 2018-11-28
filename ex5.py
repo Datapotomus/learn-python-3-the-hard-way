@@ -23,4 +23,3 @@ total = age + height + weight
 print(f"If I add {age}, {height}, and {weight} I get {total}.")
 total_metric = round(age + height_in_cm + weight_in_kg, 2)
 print(f"In Metric if I add {age}, {height_in_cm}, and {weight_in_kg} I get {total_metric}.")
-
