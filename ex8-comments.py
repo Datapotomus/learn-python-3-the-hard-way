@@ -18,6 +18,8 @@ print(formatter.format(
 ))
 
 # Adding more comments.
-
+'''
+Adding a block comment
+'''
 
 print(formatter.format("This", "works", "by", "variables."))
