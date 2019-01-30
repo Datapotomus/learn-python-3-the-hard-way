@@ -1,4 +1,6 @@
 #inital definition of the function
+#first part is "def" Which defines the function, the second is the name of the function, and the last part:.
+# Assigns two arguments, and what you call them. When invoking the function the arguments essentially become variables.
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
@@ -15,7 +17,7 @@ cheese_and_crackers(20, 30)
 print("OR, we can use variables from our script:")
 amount_of_cheese=10
 amount_of_crackers=50
-
+# Calling the function then passing the variable in the two lines right above this one.
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 #Doing math first, then sending the result of that math as a variable to the function.
