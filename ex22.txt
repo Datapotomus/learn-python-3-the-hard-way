@@ -1,0 +1,7 @@
+#       - The Most basic of symbols it means adding a comment.
+print   - It will output console text.
+(       - Open paren does a number of things. Opens a function for arguments allows you to provide text, helps with order of operations for math functions.
+)       - Works to close the open paren. That allows you to specify all those things above.
+"       -Specifies that you are going to be putting some text into a field. Allows the string type. You will need a closing one as well when doing statemens.
+'       -Functions in the same way as ", but will allow you to use a different symbol if you are already using " for some other statement. Can look like this 'I said, "Come over here now."' This lets you use ticks.
+
