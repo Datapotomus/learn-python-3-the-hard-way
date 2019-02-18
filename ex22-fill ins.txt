@@ -1,0 +1,271 @@
+        -
+
+
+
+#       - 
+
+
+
+
+print   - 
+
+
+
+
+(       - 
+
+
+
+
+)       - 
+
+
+
+
+
+"       -
+
+
+
+
+
+'       -
+
+
+
+:       -
+
+
+
+
+,       -
+
+
+
+
++       -
+
+
+
+
+/       -
+
+
+
+
+*       -
+
+
+
+
+%       -
+
+
+
+
+-       -
+
+
+
+
+<       -
+
+
+
+
+>       -
+
+
+
+
+=       -
+
+
+
+
+
+_       -
+
+
+
+
+round   -
+
+
+
+
+
+print(f"")  -
+
+
+
+
+
+{ }     -
+
+
+
+
+
+
+print(x) =
+
+
+
+
+
+False   -
+
+
+
+
+
+True    -
+
+
+
+
+
+.format -
+
+
+
+
+
+, end=' '   -
+
+
+
+
+
+
+formatter = "{} {} {} {}"
+formatter.format(1, 2, 3, 4)
+        -
+        
+
+
+
+
+
+\n      -
+
+
+
+
+\t      -
+
+
+
+
+
+\\      -
+
+
+
+
+
+input() -
+
+
+
+
+from    -
+
+
+
+
+import  -
+
+
+
+script  -
+
+
+
+
+
+prompt='# '     -
+
+
+
+
+lives=input(prompt)
+
+
+
+
+
+filenamevar=open(filename)* - 
+
+
+
+
+print(filenamevar.read())* - 
+
+
+
+
+filevar=open(filename).read()* - 
+
+
+
+
+
+
+
+target=open(filename, 'w') - 
+
+
+
+
+
+target.truncate()* - 
+
+
+
+
+target.write(line1)* - 
+
+
+
+
+target.close()* - 
+
+
+
+
+{len(indata)}  - 
+
+
+
+
+out_file.write(indata)  -
+
+
+
+
+
+def             - 
+
+
+
+
+:               - 
+
+
+
+
+readline()      - 
+
+
+
+
+
+seek([location]) IE file.seek(0) -  
+
+
+
+
+
+* = Everything I have to go over more.

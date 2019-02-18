@@ -1,7 +1,113 @@
-#       - The Most basic of symbols it means adding a comment.
-print   - It will output console text.
-(       - Open paren does a number of things. Opens a function for arguments allows you to provide text, helps with order of operations for math functions.
-)       - Works to close the open paren. That allows you to specify all those things above.
-"       -Specifies that you are going to be putting some text into a field. Allows the string type. You will need a closing one as well when doing statemens.
-'       -Functions in the same way as ", but will allow you to use a different symbol if you are already using " for some other statement. Can look like this 'I said, "Come over here now."' This lets you use ticks.
+        -Space is a basic thing. In python space is used just like in english to seperate stuff.
 
+#       - The Most basic of symbols it means adding a comment.
+
+print   - It will output console text.
+
+(       - Open paren does a number of things. Opens a function for arguments allows you to provide text, helps with order of operations for math functions.
+
+)       - Works to close the open paren. That allows you to specify all those things above.
+
+"       -Specifies that you are going to be putting some text into a field. Allows the string type. You will need a closing one as well when doing statemens.
+
+'       -Functions in the same way as ", but will allow you to use a different symbol if you are already using " for some other statement. Can look like this 
+'I said, "Come over here now."' This lets you use ticks.
+
+:       -Is used right after the close paren to start a function.
+
+,       -Used for multiple things. Many time to seperate stuff such as statments variables or args.
+
++       -Addition function can combine things or add things together.
+
+/       -Division function used when doing math. Can devide stuff.
+
+*       -Multiplication function, can multiply numbers or varabiles.
+
+%       -The % operator yields the remainder from the division of the first argument by the second.
+
+-       -Subtraction operator subtracts two numbers.
+
+<       -Less than sign, used in math.
+
+>       -Greater than sign, used in math.
+
+=       -Equals sign is used with variables to assign values to them, cna also be used in math operations, and boolean operations.
+_       -Underscore is ususally something that is used to perform much of the same functions as a space, but when you can't use spaces. IE. assigning variables.
+
+round   -Rounds a number to a given number in decimal digits. you can use like: >>> round(.75)
+1
+
+print(f"")  -The f is used to all a variable to be inserted into a print statement.
+{ }     -Normall used with the f above to put variables into print statements. You can also do things like math inside them when putting into a print statement.
+
+print(x) = Prints out just the value of a variable x. Can be whatever you assign to x.
+
+False   -Boolean statement, can be used as a variable to assign as false or when doing a statment to check if somehting is false.
+
+True    -Boolean statement just like false, but evaulates to True. So you can do expressions on it.
+
+.format -Formatting methond in Python3 allows substiutions, and value formatting. NEED TO RESTUDY THIS.
+
+, end=' '   -A python3 thing that allows you to tell the statement to continue with a space as opposed to implying a new line after the print statement.
+
+formatter = "{} {} {} {}"
+formatter.format(1, 2, 3, 4)
+        -Decided to include this, because it needs to be drilled in. A variable is being assigned that can take in arguments. The .format is then being used to format those variables that are being taken in. One of the things that this is doing is allowing it to be callable with values. Otherwise you wouldnt be able to provide it with the 1, 2, 3, 4.
+
+\n      -Newline, is used to escape strings, and show that you need a newline.
+\t      -Used to escape a string, and show that you need a tab.
+
+\\      -Escapes the \ and shows that you need a slash in your string.
+
+input() -Used to allow the user to provide input.
+
+from    -Just a way to say the first part of the module you want to import. 
+
+import  -Import brings in other python modules so you can use them in your code. 
+
+IE instead of "from sys import argv", you could do "import sys.argv", and it would do the same thing. The main difference is if you do it the second way. You have to provide the full rerference. Like third=sys.argv. Which is why using the from is a little better, because you can just say third=argv.
+
+script  -You use this a lot when using argv. It will be used to supply a variable for the script that you are running. 
+You use it like so: script, first, second, third=argv
+
+prompt='# '     -While it's just a combination. It's still important to note. It allows you to add a prompt to an input if you call the input method with it.
+lives=input(prompt)
+This will prompt this user, then will use what the user gives as the variable lives.
+
+
+filenamevar=open(filename) - creates a file pointer to filename, and allows the read function to read in the opened file.*
+Open file and return a corresponding file object (or file pointer).*
+
+print(filenamevar.read()) - Ivoking the read function on the variaable and printing the contents of the file object out.*
+
+filevar=open(filename).read() - This will create the file object then read it in right after storing the contents in the filevar variable.* 
+
+target=open(filename, 'w') - This opens the file in "write" mode which allows you to add more to it.*
+
+target.truncate() - It truncates the file's size. If it used at the begining of the file when you open it up. It will clear the whole file.*
+
+target.write(line1) - It will write line1 (which is a variable with text) into file, because it was opened for writing by the variable call.*
+
+target.close() - Just closes the file that was opened. Needed at the end when you open files in you program.
+
+{len(indata)}  - Returns the length of the file.
+
+out_file.write(indata)  - Writing the variable data actually into the line. The same as the one above target.write(line1).
+
+def             - defines as function. Starts the function statement. 
+
+:               - You put a colon after the close parens with the arguments that you use in your function.
+IE. def function(arg1, arg2):
+
+readline()      - When you provide it with the file object it will read the next line in the file object. Reads only one line.
+
+seek([location]) IE file.seek(0) -  Seeks to the specific location of a file. You use 0 when you want to start at the beginning of a file.
+
+
+
+
+
+
+
+
+* = Everything I have to go over more.
