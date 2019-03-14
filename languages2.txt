@@ -3,9 +3,6 @@ Afrikaans
 Аҧсшәа
 العربية
 Aragonés
-Arpetan
-Azərbaycanca
-Bamanankan
 বাংলা
 Galego
 한국어
@@ -13,14 +10,11 @@ Galego
 हिन्दी
 Hrvatski
 Ido
-Interlingua
-Italiano
 עברית
 ಕನ್ನಡ
 Oʻzbekcha/ўзбекча
 ਪੰਜਾਬੀ
 پنجابی
-Slovenčina
 کوردیی ناوەندی
 اردو
 Tiếng Việt

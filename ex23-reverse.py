@@ -16,19 +16,12 @@ def print_line(line, encoding, errors):
     next_lang=line.strip()
     raw_bytes=next_lang.encode(encoding, errors=errors)
     cooked_string=raw_bytes.decode(encoding, errors=errors)
-    
-    out_line=f"{raw_bytes}\n"
-    #out_line=f"Line {str(x)}: {raw_bytes} <===> {cooked_string}\n"
-    out_file.write(out_line)
+
+    print("Line", str(x)+":", raw_bytes, "<===>", cooked_string)
     x += 1
 
 
-languages=open("languages2.txt", encoding="utf-8")
-
-lang_reverse="lang_rev2.txt"
-
-out_file=open(lang_reverse, 'w')
+languages=open("languages_rev.txt", encoding="utf-8")
 
 main(languages, encoding, error)
-out_file.close()
 print("<<< Ending Script")
