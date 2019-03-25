@@ -2,11 +2,15 @@ import sys
 script, encoding, error=sys.argv
 
 x=1
+dot="."
 print(">>> Starting Script")
 def main(language_file, encoding, errors):
     line=language_file.readline()
+    global dot
 
     if line:
+        dot += "."
+        print(dot)
         print_line(line, encoding, errors)
         return main(language_file, encoding, errors)
 
@@ -26,7 +30,6 @@ def print_line(line, encoding, errors):
 languages=open("languages2.txt", encoding="utf-8")
 
 lang_reverse="lang_rev2.txt"
-
 out_file=open(lang_reverse, 'w')
 
 main(languages, encoding, error)
