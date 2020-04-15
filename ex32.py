@@ -27,3 +27,12 @@ for i in range(0, 6):
 # Now we can print them too.
 for i in elements:
     print(f"Element was: {i}")
+
+# My own lists
+myrange=range(10)
+
+for x in myrange:
+    print(f"Myrange number is: {x}")
+
+for y in range(0, 100, 7):
+    print(f"Increments of 7 for range: {y}")
