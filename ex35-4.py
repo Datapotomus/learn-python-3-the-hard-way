@@ -4,10 +4,12 @@ def gold_room():
     print("This room is full of gold how much do you take?")
 
     choice=input("> ")
+    
     if choice.isdigit():
         how_much=int(choice)
     else:
         dead("Man, learn to type a number.")
+
     if how_much == 0:
         print("You get to go to the super secrect treasure room.")
         secret_room()
